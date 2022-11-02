@@ -11,7 +11,7 @@
 - 데이터 개수 제한이 없음
     
     → 스크롤 사용
-    <img src="./img/adapterView2.jpeg" align="right">
+    <img src="./img/adapterView2.jpeg" width="200">
     
 
 <img src="./img/adapterView1.jpg" width="300">
@@ -27,7 +27,7 @@ AdapterView 예시
 - 레이아웃과 데이터를 결합하여 Adapter View에 표시할 뷰 생성
 - 결합 대상 데이터 형태 : 배열, 데이터베이스, XML 등
 
-<img src="./img/adapterView3.jpeg">
+<img src="./img/adapterView3.jpeg" width="100">
 <img src="./img/adapterView4.jpeg">
 
 ---
