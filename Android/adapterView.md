@@ -12,7 +12,7 @@
     
     → 스크롤 사용
     
-    <img src="./img/adapterView2.jpg" width="100">
+<img src="./img/adapterView2.jpg" align="right">
     
 
 <img src="./img/adapterView1.jpg" width="300">
