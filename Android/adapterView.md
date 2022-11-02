@@ -12,7 +12,7 @@
     
     → 스크롤 사용
     
-<img src="./img/adapterView2.jpg" align="right">
+<img src="./img/adapterView2.jpeg" align="right">
     
 
 <img src="./img/adapterView1.jpg" width="300">
@@ -28,9 +28,8 @@ AdapterView 예시
 - 레이아웃과 데이터를 결합하여 Adapter View에 표시할 뷰 생성
 - 결합 대상 데이터 형태 : 배열, 데이터베이스, XML 등
 
-![IMG_BFFC2251319E-1.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0ba4f22f-c682-4f63-a34f-c0a8069f57da/IMG_BFFC2251319E-1.jpeg)
-
-![IMG_C8B6BDA6AC33-1.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b8e45513-1d66-4c6d-b7b3-f77126707ab6/IMG_C8B6BDA6AC33-1.jpeg)
+<img src="./img/adapterView3.jpeg">
+<img src="./img/adapterView4.jpeg">
 
 ---
 
@@ -41,8 +40,7 @@ AdapterView 예시
 
 </aside>
 
-![IMG_26C527B384D7-1.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/23d49326-ce22-4979-bc76-9c51eff1483b/IMG_26C527B384D7-1.jpeg)
-
+<img src="./img/adapterView5.jpeg"">
 ---
 
 ## 3. AdapterView 사용 절차
@@ -180,4 +178,4 @@ listView.setOnItemClickListener(mItemClickListener);
     BaseAdapter.notifyDataSetChanged();
     ```
     
-    ![IMG_3FF99D95A044-1.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/347ea395-83cb-4e79-b1f0-90d6337a2e5a/IMG_3FF99D95A044-1.jpeg)
+    <img src="./img/adapterView6.jpeg">
