@@ -11,8 +11,7 @@
 - 데이터 개수 제한이 없음
     
     → 스크롤 사용
-    
-<img src="./img/adapterView2.jpeg" align="right">
+    <img src="./img/adapterView2.jpeg" align="right">
     
 
 <img src="./img/adapterView1.jpg" width="300">
