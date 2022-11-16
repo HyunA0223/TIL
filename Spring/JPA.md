@@ -10,7 +10,7 @@ JPA는, SQL을 사용하지 않고 데이터를 생성,조회, 수정, 삭제할
 ## 1. RDBMS  
 
 ### ✏️ 1-1. **RDBMS (Relational DatabBase Management System)**
-- RDBMS란? 컴퓨터에 정보를 저장하고 관리하는 기술!
+- **RDBMS란**? 컴퓨터에 정보를 저장하고 관리하는 기술!
     -> 성능/관리 면에서 매우 고도화된 엑셀 같은 것
 - RDBMS의 종류
     -> MySQL, PostgreSQL, Oracle Database  
@@ -29,7 +29,7 @@ JPA는, SQL을 사용하지 않고 데이터를 생성,조회, 수정, 삭제할
         2. 엑셀 시트 하나 = 테이블
         3. 엑셀 행 하나 = 데이터
 
-- 데이터 생성하기
+- **데이터 생성하기**
     ```java
     CREATE TABLE IF NOT EXISTS courses (
         id bigint NOT NULL AUTO_INCREMENT, 
@@ -38,12 +38,12 @@ JPA는, SQL을 사용하지 않고 데이터를 생성,조회, 수정, 삭제할
         PRIMARY KEY (id)
     );
     ```
-- 데이터 삽입하기
+- **데이터 삽입하기**
     ```java
     INSERT INTO courses (title, tutor) VALUES
         ('웹개발의 봄, Spring', '남병관'), ('웹개발 종합반', '이범규');
     ```
-- 데이터 조회하기
+- **데이터 조회하기**
     ```java
     SELECT * FROM courses;
     ```
@@ -54,13 +54,14 @@ JPA는, SQL을 사용하지 않고 데이터를 생성,조회, 수정, 삭제할
 
 ## 3. JPA  
 
+> ***Course라는 테이블에 title, tutor 컬럼 만들기***  
+
 ### **✏️ 3-1. JPA 시작하기**
-- Domain, Repository 소개
-    - JPA : 자바로 DB를 사용하도록 도와줌
-    - Domain : DB의 테이블
-    - Repository : SQL (생성, 삽입, 조회 명령문)
-- Domain, Repository 도입
-    ex) Course라는 테이블에 title, tutor 컬럼 만들기
+- **Domain, Repository** 소개
+    - ***JPA*** : 자바로 DB를 사용하도록 도와줌
+    - ***Domain*** : DB의 테이블
+    - ***Repository*** : SQL (생성, 삽입, 조회 명령문)
+- Domain, Repository 도입  
     1. *src > main > java > com.hyuna.jpaPrac*에 *domain* 패키지 생성
     2. *Course.java*, *CourseRepository.java* 파일 생성
         - ***Course.java***
