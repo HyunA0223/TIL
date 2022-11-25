@@ -30,7 +30,7 @@
     
     [네트워크 (Network)](./network.md)
     
-    [Thread와 AsyncTask 사용](https://www.notion.so/Thread-AsyncTask-7558e08c34214e84913cd69a8c25636b)
+    [Thread와 AsyncTask 사용](./thread_asynctask.md)
     
     [Open API와 Parsing](https://www.notion.so/Open-API-Parsing-bf650d117dc2446daae84135542e5f39)
     
