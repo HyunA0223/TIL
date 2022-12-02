@@ -32,7 +32,7 @@
     
     [Thread와 AsyncTask 사용](./thread_asynctask.md)
     
-    [Open API와 Parsing](https://www.notion.so/Open-API-Parsing-bf650d117dc2446daae84135542e5f39)
+    [Open API와 Parsing](./openAPI_parsing.md)
     
     [App Data와 File](https://www.notion.so/App-Data-File-30a98f47dbe344949b9139d276e2e0ad)
     
